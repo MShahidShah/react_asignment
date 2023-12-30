@@ -1,0 +1,183 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.navbar{
+  width: 100%;
+  height: 40vh;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  padding-top: 120px;
+  font-weight: bold;
+  background-image: url(../images/img/bg-masthead.jpg);
+  background-size: cover;
+ }
+
+.navbar input{
+  height: 50px;
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.navbar button{
+  width: 80px;
+  height: 50px;
+  font-size: large;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+.sec-comp{
+  background-color: white;
+  /* color: black; */
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  /* padding: 20px; */
+  
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+  
+}
+.sec-comp div{
+  color: black
+}
+.sec-comp i{
+  font-size: 40px;
+  color: blue;
+}
+.fir-com{
+  display: flex;
+  
+  /* justify-content: center; */
+}
+.fir-com .fir{
+  padding-top: 100px;
+  margin-right: 12px
+}
+.fir-com img{
+  width: 100%;
+  height: 40vh;
+  margin-left: 150px;
+  object-fit: cover;
+}
+/* .fir-com .fir{
+  padding: 10px;
+} */
+.second-com{
+  display: flex;
+}
+.second-com .second{
+  padding-top: 100px;
+  margin-left: 200px;
+}
+.second-com img{
+  width: 100%;
+  height: 40vh;
+  margin-right: 150px;
+  object-fit: cover;
+
+  /* margin: 20px; */
+}
+.sec-comp .sec{
+  padding: 10px;
+}
+.third-com{
+  display: flex;
+}
+.third-com .third{
+  padding-top: 100px;
+  margin-left: 60px;
+}
+.third-com img{
+  width: 100%;
+  height: 40vh;
+  margin-left: 150px;
+  object-fit: cover;  
+}
+/* .third-com .third{
+  padding: 10px;
+} */
+.four-com{
+  display: flex;
+}
+.four{
+  text-align: center;
+}
+.five{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.five img{
+  width: 150px;
+}
+.footer{
+  width: 100%;
+  height: 40vh;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  padding-top: 120px;
+  font-weight: bold;
+  background-image: url(../images/img/bg-masthead.jpg);
+  background-size: cover;
+ }
+.footer input{
+  height: 50px;
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.footer button{
+  width: 80px;
+  height: 50px;
+  font-size: large;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+} 
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    height: auto;
+    padding-top: 80px;
+  }
+
+  .navbar input {
+    width: 80%;
+  }
+
+  .navbar button {
+    width: 50%;
+  }
+
+  .sec-comp,
+  .fir-com,
+  .second-com,
+  .third-com,
+  .four,
+  .five,
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fir-com img,
+  .second-com img,
+  .third-com img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
